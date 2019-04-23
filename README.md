@@ -51,7 +51,7 @@ $ git pull origin master
 ```
 
 * 或者用fetch + merge  
-* origin/master就是远端（github）上面的仓库，master就是本地的仓库  
+origin/master就是远端（github）上面的仓库，master就是本地的仓库  
 
 ```
 $ git fetch orgin  
