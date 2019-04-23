@@ -26,13 +26,12 @@ _You **can** combine them_
 
 ***
 
-'''javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
+```javascript
+if (isAwesome){
+  return true
 }
-'''
+```
+`是波浪号按键的半角形式
 
 ***
 
@@ -48,6 +47,7 @@ function fancyAlert(arg) {
 >跳转的目的测试
 
 <div id="Inter-Page">div标签</div>
+
 
 <a name="link">a标签</div>
 
