@@ -1,12 +1,12 @@
 
 [加载数据](#35数据加载实用程序-P602)
-[加载数据](#Inter-Page)
+
+[Inter-Page](#Inter-Page)
+
 任意 1-6 个 # 标注的标题都会被添加上同名的锚点链接
 多单词锚点的空格用 - 代替
 多级序号需要去除 .
 
-
-<div id="Inter-Page"></div>
 
 
     javascript
@@ -18,10 +18,12 @@
 
 ***
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
 ***
+
+<div id="Inter-Page">Inter-Page</div>
 
 * Item 1
 * Item 2
