@@ -10,16 +10,16 @@
 
 <a href="#wo" id="huiqu">跳转</a>
 
-任意 1-6 个 # 标注的标题都会被添加上同名的锚点链接
-多单词锚点的空格用 - 代替
-多级序号需要去除 .
+任意 1-6 个 # 标注的标题都会被添加上同名的锚点链接  
+多单词锚点的空格用 - 代替  
+多级序号需要去除 .  
 
 ***
 
-*This text will be italic*
+*This text will be italic*  
 _This will also be italic_
 
-**This text will be bold**
+**This text will be bold**  
 __This will also be bold__
 
 _You **can** combine them_
@@ -46,8 +46,7 @@ if (isAwesome){
 
 >跳转的目的测试
 
-<div id="Inter-Page">div标签</div>
-
+<div id="Inter-Page">div标签</div>  
 
 <a name="link">a标签</div>
 
