@@ -1,18 +1,59 @@
+> ## 跳转的多种方法
 
 [加载数据](#35数据加载实用程序-P602)
 
-    javascript
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
+[Inter-Page](#Inter-Page)
+
+[link](#link)
+
+[span](#span)
+
+<a href="#wo" id="huiqu">跳转</a>
+
+任意 1-6 个 # 标注的标题都会被添加上同名的锚点链接  
+多单词锚点的空格用 - 代替  
+多级序号需要去除 .  
 
 ***
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+*This text will be italic*  
+_This will also be italic_
+
+**This text will be bold**  
+__This will also be bold__
+
+_You **can** combine them_
+
+***
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+`是波浪号按键的半角形式
+
+***
+
+# This is an h1 tag
+## This is an h2 tag
+### This is an h3 tag
+#### This is an h4 tag
+##### This is an h5 tag
+###### This is an h6 tag
+
+***
+
+> ### 跳转的目的测试
+
+<div id="Inter-Page">div标签</div>  
+  
+<a name="link">a标签</div>
+
+<span id="span">span标签</span>
+
+<a href="#huiqu" id="wo">回去 a双向标签</a>
+
 ***
 
 * Item 1
@@ -30,6 +71,16 @@
    
 ***
 
+回车需要空格+空格+enter
+
+> ## 图片的加载
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+***
+
+> ## 表格
 <table>
   <thead>
     <tr>
@@ -51,15 +102,17 @@
 
 ***
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+***
+
 > 区块引用
 >> 嵌套引用
 
 ***
-
-*斜体*，_斜体_
-**粗体**，__粗体__
-
-
 
 
 ### 3.5.数据加载实用程序 P602
