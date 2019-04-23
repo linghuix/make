@@ -1,5 +1,4 @@
-
-<a href="#wo" name="huiqu" id="huiqu">3年</a
+>跳转的多种方法
 
 [加载数据](#35数据加载实用程序-P602)
 
@@ -9,10 +8,13 @@
 
 [span](#span)
 
+<a href="#wo" id="huiqu">跳转</a>
+
 任意 1-6 个 # 标注的标题都会被添加上同名的锚点链接
 多单词锚点的空格用 - 代替
 多级序号需要去除 .
 
+***
 
 *This text will be italic*
 _This will also be italic_
@@ -22,13 +24,15 @@ __This will also be bold__
 
 _You **can** combine them_
 
+***
 
-    '''javascript
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }'''
+'''javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+'''
 
 ***
 
@@ -41,13 +45,15 @@ _You **can** combine them_
 
 ***
 
-<div id="Inter-Page">Inter-Page</div>
+>跳转的目的测试
 
-<a name="link">Inter-Page</div>
+<div id="Inter-Page">div标签</div>
 
-<span id="span">span</span>
+<a name="link">a标签</div>
 
-<a href="#huiqu" id="wo" name="wo">3年前的今天</a>
+<span id="span">span标签</span>
+
+<a href="#huiqu" id="wo">回去 a双向标签</a>
 
 ***
 
