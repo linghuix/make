@@ -1,4 +1,4 @@
->跳转的多种方法
+> ## 跳转的多种方法
 
 [加载数据](#35数据加载实用程序-P602)
 
@@ -44,7 +44,7 @@ if (isAwesome){
 
 ***
 
->跳转的目的测试
+> ### 跳转的目的测试
 
 <div id="Inter-Page">div标签</div>  
   
@@ -71,11 +71,16 @@ if (isAwesome){
    
 ***
 
+回车需要空格+空格+enter
+
+> ## 图片的加载
+
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 
 ***
 
+> ## 表格
 <table>
   <thead>
     <tr>
