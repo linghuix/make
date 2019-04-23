@@ -82,7 +82,6 @@ if (isAwesome){
 > ## 图片的加载
 
 ![GitHub Logo](/images/logo.jpg)  
-Format: ![Alt Text](url)
 
 ***
 
