@@ -10,7 +10,9 @@
 
 <a href="#wo" id="huiqu">a标签双向跳转</a>
 
-<a href="./README.md#make">外部跳转</a>
+<a href="./README.md">外部页面跳转</a>
+
+<a href="./README.md#make">外部标题锚点跳转</a>
 
 任意 1-6 个 # 标注的标题都会被添加上同名的锚点链接  
 多单词锚点的空格用 - 代替  
