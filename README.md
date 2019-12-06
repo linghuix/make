@@ -1,88 +1,48 @@
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
-word  
 
 # make
 
 
-## ´ÓÔ¶³Ì²Ö¿â»ñÈ¡
+## ä»è¿œç¨‹ä»“åº“è·å–
 
-* °ÑÔ¶¶Ë²Ö¿âfetchÏÂÀ´£¬Í¬Ê±merge
+* æŠŠè¿œç«¯ä»“åº“fetchä¸‹æ¥ï¼ŒåŒæ—¶merge
 
 ```
 $ git pull origin master    
 ```
 
-* »òÕßÓÃfetch + merge  
-origin/master¾ÍÊÇÔ¶¶Ë£¨github£©ÉÏÃæµÄ²Ö¿â£¬master¾ÍÊÇ±¾µØµÄ²Ö¿â  
+* æˆ–è€…ç”¨fetch + merge  
+origin/masterå°±æ˜¯è¿œç«¯ï¼ˆgithubï¼‰ä¸Šé¢çš„ä»“åº“ï¼Œmasterå°±æ˜¯æœ¬åœ°çš„ä»“åº“  
 
 ```
 $ git fetch orgin  
 $ git merge master origin/master  
 ```
 
-## git merge³åÍ»
-×Ô¶¯ºÏ²¢Ê§°Ü£¬ĞèÒªÊÖ¶¯½â¾ö³åÍ»
+## git mergeå†²çª
+è‡ªåŠ¨åˆå¹¶å¤±è´¥ï¼Œéœ€è¦æ‰‹åŠ¨è§£å†³å†²çª
 
-* ³åÍ»²é¿´
+* å†²çªæŸ¥çœ‹
 ```
 $ git diff
 ```
 
-* ½â¾ö³åÍ»¡£±à¼­³åÍ»ÎÄ¼ş£¬°Ñ³åÍ»µÄ²¿·ÖÉ¾µô»òÕßĞŞ¸Äµô
+* è§£å†³å†²çªã€‚ç¼–è¾‘å†²çªæ–‡ä»¶ï¼ŒæŠŠå†²çªçš„éƒ¨åˆ†åˆ æ‰æˆ–è€…ä¿®æ”¹æ‰
 ![conflict file](./images/git/merge.png)
 
-ÉÏÍ¼ÖĞ±»ºì¿ò±ê¼ÇµÄ²¿·Ö£¬Ç°Á½¸öºì¿òÖ®¼äµÄ²¿·Ö£¬ÊÇ±¾µØµÄÄÚÈİ¡£  
-ºóÁ½¸öºì¿òÖ®¼äµÄ²¿·Ö£¬ÊÇorigin/masterÔ¶¶ËµÄÄÚÈİ¡£ÔõÃ´ĞŞ¸Ä¾ö¶¨ÓÚÄã¡£µ«ÊÇ×îºóÒª°Ñºì¿òµÄÄÚÈİÉ¾³ı  
+ä¸Šå›¾ä¸­è¢«çº¢æ¡†æ ‡è®°çš„éƒ¨åˆ†ï¼Œå‰ä¸¤ä¸ªçº¢æ¡†ä¹‹é—´çš„éƒ¨åˆ†ï¼Œæ˜¯æœ¬åœ°çš„å†…å®¹ã€‚  
+åä¸¤ä¸ªçº¢æ¡†ä¹‹é—´çš„éƒ¨åˆ†ï¼Œæ˜¯origin/masterè¿œç«¯çš„å†…å®¹ã€‚æ€ä¹ˆä¿®æ”¹å†³å®šäºä½ ã€‚ä½†æ˜¯æœ€åè¦æŠŠçº¢æ¡†çš„å†…å®¹åˆ é™¤  
 
 
-## ÍÆËÍµ½Ô¶³Ì²Ö¿â
+## æ¨é€åˆ°è¿œç¨‹ä»“åº“
 * push file to the master of remote reposity
 
 ```
 $ git add lecture-3
-$ git commit -m ¡°bbbbb"
+$ git commit -m â€œbbbbb"
 $ git push origin master
 ```
 
-* ½«±¾µØtest·ÖÖ§ÉèÖÃÎªupstream£¬ÍÆËÍµ½Ô¶³Ì²Ö¿â
+* å°†æœ¬åœ°teståˆ†æ”¯è®¾ç½®ä¸ºupstreamï¼Œæ¨é€åˆ°è¿œç¨‹ä»“åº“
 
 ```
 git push --set-upstream origin test  
