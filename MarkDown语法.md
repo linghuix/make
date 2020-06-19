@@ -51,7 +51,6 @@ if (isAwesome){
 > ### 跳转的目的测试
 
 <div id="Inter-Page">div标签</div>  
-  
 <a name="link">a标签</div>
 
 <span id="span">span标签</span>
@@ -81,7 +80,7 @@ if (isAwesome){
 
 > ## 图片的加载
 
-![GitHub Logo](/images/logo.jpg)  
+![GitHub Logo](./images/logo.jpg)  
 
 ***
 
@@ -115,5 +114,6 @@ if (isAwesome){
 ***
 
 > 区块引用
->> 嵌套引用
+>
+> > 嵌套引用
 
